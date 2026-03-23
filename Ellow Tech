@@ -1,0 +1,175 @@
+Q. Introduce yourself?
+“My name is Udayjit Charpe, and I am from Amravati, Maharashtra. I have completed my Master of Computer Applications in 2022.
+
+I have around 2 years of experience in QA testing, where I worked as an QA testing at Tech Mahindra from August 2023 to May 2025.
+
+During my time there, I was involved in analyzing requirements, writing detailed test cases, and identifying edge cases to ensure maximum test coverage.
+
+I performed functional testing, regression testing, and exploratory testing to identify defects and improve product quality.
+
+I also worked on UI validation, including responsiveness, layout consistency, and cross-browser testing.
+
+For defect tracking, I used tools like Jira, where I reported bugs with proper steps, screenshots, and expected vs actual results.
+
+Additionally, I have basic experience in API testing using Postman and I use browser developer tools for debugging.
+
+I am now looking for an opportunity where I can take more ownership and grow further as an SDET.”
+
+Q. Login page test kaise karoge?
+
+“I will test in multiple ways:
+Positive: valid username/password → login success
+Negative: wrong password, empty fields
+Edge cases: long input, SQL injection, multiple attempts
+
+I will also check:
+
+UI (alignment, button state)
+Responsiveness
+API calls using DevTools
+
+Q. Bug report kaise likhte ho?
+
+👉 Answer:
+
+Clear title
+Steps to reproduce
+Expected vs actual result
+Screenshots/logs
+Severity & priority
+
+I log bugs in Jira to ensure proper tracking.”
+
+Q. Severity vs Priority..?
+
+👉 Answer:
+
+Severity = impact on system
+Priority = urgency to fix
+
+👉 Example:
+
+Payment failure → High severity, High priority
+UI misalignment → Low severity, Low priority
+
+Q. API testing kaise karte ho?
+
+I use Postman and verify:
+
+Status codes (200, 400, 500)
+Response body
+Headers
+Error handling
+
+I test both valid and invalid inputs.
+
+Q. Regression testing kya hota hai?
+
+👉 Answer:
+“Regression testing ensures that new changes do not break existing functionality.
+I run a regression suite before every release.”
+
+Q. Exploratory testing kya hota hai?
+
+👉 Answer:
+“It is testing without predefined test cases where I explore the system to find unexpected
+bugs using different scenarios and user flows.”
+
+Q. UI testing kaise karte ho?
+
+👉 Answer:
+
+“I check:
+Layout and alignment
+Responsive behavior (mobile/tablet)
+Cross-browser compatibility
+UX issues
+I ensure the UI is consistent and user-friendly
+
+Q. Requirement me gap kaise find karte ho?
+
+👉 Answer:
+
+“I analyze requirements and ask:
+What happens in failure cases?
+Are validations defined?
+Are edge cases covered?
+Then I discuss with the team to clarify gaps.
+
+Q. Time kam ho to kya test karoge?
+
+👉 Answer:
+
+“I prioritize:
+Critical features (login, payment)
+High-risk areas
+Recently changed modules
+This ensures maximum impact testing.”
+
+Q. Payment fail ho raha hai — kaise debug karoge?
+
+👉 Answer:
+
+“I will:
+Check console errors
+Inspect API calls in Network tab
+Validate request/response
+Check status codes
+Then coordinate with backend if needed.”
+
+Developer bug reject kare to?
+
+👉 Answer:
+“I will recheck the issue, provide proper evidence (steps, logs), and discuss calmly
+with the developer to resolve it collaboratively.”
+
+Q. DevTools ka use kaise karte ho?
+
+👉 Answer:
+
+“I use:
+Network tab → API calls check
+Console → errors
+Elements → UI inspection
+This helps in debugging issues effectively
+
+Q. Test case vs Test scenario
+
+👉 Answer:
+Test scenario = high-level idea
+Test case = detailed steps
+
+Q. Previous project work? 
+
+“I have around 1.8 years of experience in QA testing from August 2023 to May 2025, where I worked on ensuring the quality of web applications. 
+In my role, I was responsible for analyzing requirements and creating detailed test cases covering positive, negative, and edge scenarios. 
+I performed functional testing, regression testing, and exploratory testing to identify defects early in the development cycle. 
+I also worked on UI validation, checking layout consistency, responsiveness across devices, and cross-browser compatibility. 
+For defect tracking, I used tools like Jira to log bugs with proper steps, screenshots, and expected vs actual results. 
+Additionally, I have basic experience in API testing using Postman and used browser developer tools for debugging issues. 
+I collaborated closely with developers and product teams to resolve issues and improve overall product quality.” 
+
+Q2. Aap company switch kyu karna chahte ho?
+
+I have gained good experience in my current role and learned the basics of manual testing and team collaboration.
+However, I am now looking for better opportunities where I can work more deeply on testing projects, enhance my technical skills,
+and grow professionally.
+
+ Q. What kind of opportunity are you looking for?
+
+I am looking for a manual testing role where I can work on real-time projects and enhance my testing skills. 
+I want to gain hands-on experience in different types of testing and understand various domains.
+I am also looking for an opportunity where I can contribute to product quality, learn from experienced 
+team members, and grow professionally in the testing field.
+
+ Q. Company switch + current gap explain karo
+I left my job in May 2025 to explore better career opportunities in the field of manual testing.
+During this period, I focused on improving my knowledge of testing concepts like SDLC, STLC, and defect life cycle.
+I also practiced test case writing, learned about real-time testing scenarios, and prepared myself for interviews.
+I am now actively looking for opportunities where I can apply my skills and grow further.
+
+
+
+ 
+
+ 
