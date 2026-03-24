@@ -15,6 +15,37 @@ Additionally, I have basic experience in API testing using Postman and I use bro
 
 I am now looking for an opportunity where I can take more ownership and grow further as an SDET.”
 
+Q. Project Explanation?
+
+“In my previous role at Tech Mahindra, I worked on a web-based application project.
+
+The application was mainly focused on user management and core functionalities like login, dashboard, and data handling.
+My role as a QA was to ensure the quality of the application by understanding requirements and preparing detailed test 
+cases covering positive, negative, and edge scenarios.
+I performed functional testing, regression testing, and exploratory testing to identify defects early in the development cycle.
+I was also responsible for UI validation, where I checked layout consistency, responsiveness across devices, and cross-browser compatibility.
+For defect tracking, I used Jira to log bugs with clear steps, screenshots, and expected vs actual results.
+Additionally, I performed basic API testing using Postman and used browser developer tools to debug issues by analyzing network requests and responses.
+I also collaborated closely with developers and product teams to resolve issues and ensure smooth releases.
+This experience helped me improve my analytical thinking, attention to detail, and overall understanding of software quality.”
+
+Q. Tumne kya bugs find kiye?”
+
+“I identified issues like:
+Validation errors (accepting invalid inputs)
+UI alignment issues
+API response failures
+Broken flows in user journey”
+
+Q. Biggest challenge kya tha?”
+
+“One challenge was identifying edge cases where the application behaved unexpectedly.
+I used exploratory testing and different user scenarios to uncover such issues.”
+
+Team me kaise kaam kiya?”
+
+“I worked closely with developers and discussed issues clearly with proper evidence to ensure faster resolution.”
+
 Q. Login page test kaise karoge?
 
 “I will test in multiple ways:
@@ -67,13 +98,16 @@ Q. Regression testing kya hota hai?
 
 👉 Answer:
 “Regression testing ensures that new changes do not break existing functionality.
-I run a regression suite before every release.”
+
+👉 Example:
+If developer fixes login issue, I re-test login + also test signup, dashboard, logout to ensure nothing else is affected.”
 
 Q. Exploratory testing kya hota hai?
 
-👉 Answer:
-“It is testing without predefined test cases where I explore the system to find unexpected
-bugs using different scenarios and user flows.”
+“Exploratory testing is done without predefined test cases.
+
+👉 Example:
+While testing a form, I tried random inputs, browser refresh during submission, and navigation changes — which helped me find unexpected bugs.”
 
 Q. UI testing kaise karte ho?
 
@@ -85,16 +119,18 @@ Responsive behavior (mobile/tablet)
 Cross-browser compatibility
 UX issues
 I ensure the UI is consistent and user-friendly
+👉 Example:
+I found a button overlapping issue on mobile view which was not visible on desktop.”
 
 Q. Requirement me gap kaise find karte ho?
 
-👉 Answer:
+“I identify gaps by asking:
 
-“I analyze requirements and ask:
-What happens in failure cases?
-Are validations defined?
-Are edge cases covered?
-Then I discuss with the team to clarify gaps.
+What happens if input is invalid?
+What are edge cases?
+
+👉 Example:
+Requirement didn’t mention max password length, I raised it and prevented a future bug.”
 
 Q. Time kam ho to kya test karoge?
 
