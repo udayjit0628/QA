@@ -1,6 +1,9 @@
+camera issue?
+
 I think there is a temporary issue with my camera. I’ve checked it, but it’s not working properly at the moment. I hope it’s okay if we continue with audio
 It seems like the camera service isn’t initializing properly. Whenever I try to open it, the app either hangs or crashes. It could be that some other app is
 using the camera in the background, or there might be a permissions issue. I also tried clearing the cache, but it still hasn’t been fixed.
+
 Q. Introduce yourself?
 Sure, thank you for the opportunity. I’ll start with a brief introduction about myself.
 “My name is Udayjit Charpe, and I am from pune, Maharashtra. I have completed my Master of Computer Applications in 2022.
