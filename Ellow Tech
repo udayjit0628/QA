@@ -84,6 +84,11 @@ UI (alignment, button state)
 Responsiveness
 API calls using DevTools
 
+👉 Example:
+For example, I verify valid login works, invalid credentials show errors, and 
+inputs like long data or SQL injection are handled securely. I also check UI,
+responsiveness, and validate API responses using DevTools."
+
 Q. Bug report kaise likhte ho?
 
 👉 Answer:
@@ -95,6 +100,14 @@ Screenshots/logs
 Severity & priority
 
 I log bugs in Jira to ensure proper tracking.”
+
+👉 Example:
+Steps to Reproduce:
+
+Open login page
+Enter valid email → test@gmail.com
+Enter correct password → 123456
+Click on Login button
 
 Q. Severity vs Priority..?
 
@@ -205,6 +218,11 @@ Network tab → API calls check
 Console → errors
 Elements → UI inspection
 This helps in debugging issues effectively
+
+👉 Example:
+
+Status → 401
+Response → "Invalid credentials"
 
 Q. Test case vs Test scenario
 
