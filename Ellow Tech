@@ -1,40 +1,52 @@
-camera issue?
 
-I think there is a temporary issue with my camera. I’ve checked it, but it’s not working properly at the moment. I hope it’s okay if we continue with audio
-It seems like the camera service isn’t initializing properly. Whenever I try to open it, the app either hangs or crashes. It could be that some other app is
-using the camera in the background, or there might be a permissions issue. I also tried clearing the cache, but it still hasn’t been fixed.
 
 Q. Introduce yourself?
 Sure, thank you for the opportunity. I’ll start with a brief introduction about myself.
-“My name is Udayjit Charpe, and I am from pune, Maharashtra. I have completed my Master of Computer Applications in 2022.
+“My name is Udayjit Charpe, and I am from pune, Maharashtra. I have completed my Master
+of Computer Applications in 2022.
 
-I have around 2 years of experience in QA testing, where I worked as an QA testing at Tech Mahindra from August 2023 to May 2025.
+I have around 2 years of experience in QA testing, where I worked as an QA testing at 
+Tech Mahindra from August 2023 to May 2025.
 
-During my time there, I was involved in analyzing requirements, writing detailed test cases, and identifying edge cases to ensure maximum test coverage.
+During my time there, I was involved in analyzing requirements, writing detailed test 
+cases, and identifying edge cases to ensure maximum test coverage.
 
-I performed functional testing, regression testing, and exploratory testing to identify defects and improve product quality.
+I performed functional testing, regression testing, and exploratory testing to identify 
+defects and improve product quality.
 
-I also worked on UI validation, including responsiveness, layout consistency, and cross-browser testing.
+I also worked on UI validation, including responsiveness, layout consistency, and 
+cross-browser testing.
 
-For defect tracking, I used tools like Jira, where I reported bugs with proper steps, screenshots, and expected vs actual results.
+For defect tracking, I used tools like Jira, where I reported bugs with proper steps, 
+screenshots, and expected vs actual results.
 
-Additionally, I have basic experience in API testing using Postman and I use browser developer tools for debugging.
+Additionally, I have basic experience in API testing using Postman and I use browser 
+developer tools for debugging.
 
-I am now looking for an opportunity where I can take more ownership and grow further as an SDET.” That’s a brief about me.
+I am now looking for an opportunity where I can take more ownership and grow further as 
+an SDET.” That’s a brief about me.
 
 Q. Project Explanation?
 
 “In my previous role at Tech Mahindra, I worked on a web-based application project.
 
-The application was mainly focused on user management and core functionalities like login, dashboard, and data handling.
-My role as a QA was to ensure the quality of the application by understanding requirements and preparing detailed test 
+The application was mainly focused on user management and core functionalities like login,
+dashboard, and data handling.
+My role as a QA was to ensure the quality of the application by understanding requirements
+and preparing detailed test 
 cases covering positive, negative, and edge scenarios.
-I performed functional testing, regression testing, and exploratory testing to identify defects early in the development cycle.
-I was also responsible for UI validation, where I checked layout consistency, responsiveness across devices, and cross-browser compatibility.
-For defect tracking, I used Jira to log bugs with clear steps, screenshots, and expected vs actual results.
-Additionally, I performed basic API testing using Postman and used browser developer tools to debug issues by analyzing network requests and responses.
-I also collaborated closely with developers and product teams to resolve issues and ensure smooth releases.
-This experience helped me improve my analytical thinking, attention to detail, and overall understanding of software quality.”
+I performed functional testing, regression testing, and exploratory testing to identify 
+defects early in the development cycle.
+I was also responsible for UI validation, where I checked layout consistency, responsiveness 
+across devices, and cross-browser compatibility.
+For defect tracking, I used Jira to log bugs with clear steps, screenshots, and expected vs 
+actual results.
+Additionally, I performed basic API testing using Postman and used browser developer tools to 
+debug issues by analyzing network requests and responses.
+I also collaborated closely with developers and product teams to resolve issues and ensure 
+smooth releases.
+This experience helped me improve my analytical thinking, attention to detail, and overall 
+understanding of software quality.”
 
 Q. Final Closing?
 
@@ -54,9 +66,10 @@ Q. Biggest challenge kya tha?”
 “One challenge was identifying edge cases where the application behaved unexpectedly.
 I used exploratory testing and different user scenarios to uncover such issues.”
 
-Team me kaise kaam kiya?”
+Q. Team me kaise kaam kiya?”
 
-“I worked closely with developers and discussed issues clearly with proper evidence to ensure faster resolution.”
+“I worked closely with developers and discussed issues clearly with proper evidence to ensure
+faster resolution.”
 
 Q. Login page test kaise karoge?
 
@@ -104,6 +117,11 @@ Response body
 Headers
 Error handling
 
+👉 Example:
+I use Postman to test APIs. For example, in a login API, I send valid data and verify 200 status
+and token in response. Then I test invalid inputs like wrong password or missing fields and check
+for proper error codes like 400 or 401 and correct error messages. I also validate headers and edge cases."
+
 I test both valid and invalid inputs.
 
 Q. Regression testing kya hota hai?
@@ -112,14 +130,16 @@ Q. Regression testing kya hota hai?
 “Regression testing ensures that new changes do not break existing functionality.
 
 👉 Example:
-If developer fixes login issue, I re-test login + also test signup, dashboard, logout to ensure nothing else is affected.”
+If developer fixes login issue, I re-test login + also test signup, dashboard, logout to ensure
+nothing else is affected.”
 
 Q. Exploratory testing kya hota hai?
 
 “Exploratory testing is done without predefined test cases.
 
 👉 Example:
-While testing a form, I tried random inputs, browser refresh during submission, and navigation changes — which helped me find unexpected bugs.”
+While testing a form, I tried random inputs, browser refresh during submission, and navigation 
+changes — which helped me find unexpected bugs.”
 
 Q. UI testing kaise karte ho?
 
@@ -131,6 +151,7 @@ Responsive behavior (mobile/tablet)
 Cross-browser compatibility
 UX issues
 I ensure the UI is consistent and user-friendly
+
 👉 Example:
 I found a button overlapping issue on mobile view which was not visible on desktop.”
 
@@ -154,6 +175,10 @@ High-risk areas
 Recently changed modules
 This ensures maximum impact testing.”
 
+👉 Example:
+For example, in an e-commerce app, I ensure login works, users can place orders,
+and payments are processed correctly. This helps catch maximum important issues quickly."
+
 Q. Payment fail ho raha hai — kaise debug karoge?
 
 👉 Answer:
@@ -165,7 +190,7 @@ Validate request/response
 Check status codes
 Then coordinate with backend if needed.”
 
-Developer bug reject kare to?
+Q. Developer bug reject kare to?
 
 👉 Answer:
 “I will recheck the issue, provide proper evidence (steps, logs), and discuss calmly
@@ -187,34 +212,54 @@ Q. Test case vs Test scenario
 Test scenario = high-level idea
 Test case = detailed steps
 
+Test scenario is a high-level idea of what to test, while a test case contains
+detailed steps, test data, and expected results. For example, login functionality
+is a test scenario, and entering valid credentials with step-by-step actions is a test case."
+
 Q. Previous project work? 
 
-“I have around 1.8 years of experience in QA testing from August 2023 to May 2025, where I worked on ensuring the quality of web applications. 
-In my role, I was responsible for analyzing requirements and creating detailed test cases covering positive, negative, and edge scenarios. 
-I performed functional testing, regression testing, and exploratory testing to identify defects early in the development cycle. 
-I also worked on UI validation, checking layout consistency, responsiveness across devices, and cross-browser compatibility. 
-For defect tracking, I used tools like Jira to log bugs with proper steps, screenshots, and expected vs actual results. 
-Additionally, I have basic experience in API testing using Postman and used browser developer tools for debugging issues. 
-I collaborated closely with developers and product teams to resolve issues and improve overall product quality.” 
+“I have around 1.8 years of experience in QA testing from August 2023 to May 2025, where I 
+worked on ensuring the quality of web applications. 
+In my role, I was responsible for analyzing requirements and creating detailed test cases 
+covering positive, negative, and edge scenarios. 
+I performed functional testing, regression testing, and exploratory testing to identify 
+defects early in the development cycle. 
+I also worked on UI validation, checking layout consistency, responsiveness across devices, 
+and cross-browser compatibility. 
+For defect tracking, I used tools like Jira to log bugs with proper steps, screenshots, 
+and expected vs actual results. 
+Additionally, I have basic experience in API testing using Postman and used browser developer 
+tools for debugging issues. 
+I collaborated closely with developers and product teams to resolve issues and improve overall
+product quality.” 
 
 Q2. Aap company switch kyu karna chahte ho?
 
-I have gained good experience in my current role and learned the basics of manual testing and team collaboration.
-However, I am now looking for better opportunities where I can work more deeply on testing projects, enhance my technical skills,
+I have gained good experience in my current role and learned the basics of manual testing and 
+team collaboration.
+However, I am now looking for better opportunities where I can work more deeply on testing 
+projects, enhance my technical skills,
 and grow professionally.
 
  Q. What kind of opportunity are you looking for?
 
-I am looking for a manual testing role where I can work on real-time projects and enhance my testing skills. 
-I want to gain hands-on experience in different types of testing and understand various domains.
-I am also looking for an opportunity where I can contribute to product quality, learn from experienced 
+I am looking for a manual testing role where I can work on real-time projects and enhance
+my testing skills. 
+I want to gain hands-on experience in different types of testing and understand various
+domains.
+I am also looking for an opportunity where I can contribute to product quality, learn 
+from experienced 
 team members, and grow professionally in the testing field.
 
  Q. Company switch + current gap explain karo
-I left my job in May 2025 to explore better career opportunities in the field of manual testing.
-During this period, I focused on improving my knowledge of testing concepts like SDLC, STLC, and defect life cycle.
-I also practiced test case writing, learned about real-time testing scenarios, and prepared myself for interviews.
-I am now actively looking for opportunities where I can apply my skills and grow further.
+I left my job in May 2025 to explore better career opportunities in the field of
+manual testing.
+During this period, I focused on improving my knowledge of testing concepts like 
+SDLC, STLC, and defect life cycle.
+I also practiced test case writing, learned about real-time testing scenarios, 
+and prepared myself for interviews.
+I am now actively looking for opportunities where I can apply my skills and 
+grow further.
 
 Q. Any question for my side?
 
@@ -222,7 +267,8 @@ Q. Any question for my side?
 -- What is the next step in the hiring process
 
 Q. interview ke last time bolna hai?
-Thank you for your time. It was great interacting with you. I’m really interested in this opportunity and I believe 
+Thank you for your time. It was great interacting with you. I’m really interested
+in this opportunity and I believe 
 my skills align well with the role. Looking forward to your feedback.”
 
  
