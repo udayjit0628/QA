@@ -121,6 +121,11 @@ Priority = urgency to fix
 Payment failure → High severity, High priority
 UI misalignment → Low severity, Low priority
 
+Q. Diffrence Between Severity vs Priority?
+
+Severity: High (core functionality broken)
+Priority: High (needs immediate fix as users are blocked)
+
 Q. API testing kaise karte ho?
 
 I use Postman and verify:
@@ -233,6 +238,86 @@ Test case = detailed steps
 Test scenario is a high-level idea of what to test, while a test case contains
 detailed steps, test data, and expected results. For example, login functionality
 is a test scenario, and entering valid credentials with step-by-step actions is a test case."
+
+Q. 4xx vs 5xx?
+✅ Answer:
+4xx → client mistake
+5xx → server issue
+
+👉 Example:
+
+404 → wrong URL
+500 → server crash
+
+Q. What is CI/CD?
+✅ Answer:
+
+CI is continuous integration where code is automatically tested, and CD is deployment of that code.
+
+💡 Example:
+Developer pushes code
+Pipeline runs tests
+If pass → deploy
+
+👉 Tools:
+
+Jenkins
+GitHub Actions
+
+Q. Login not working — what will you do?
+✅ Perfect Answer:
+
+First, I will check if it is a UI issue. Then I will inspect the Network tab to verify
+the API request and response. I will validate the request payload and check the status 
+code. Based on findings, I will identify whether it is a frontend or backend issue and
+raise a detailed bug.
+
+Q. You find a critical bug just before release — what will you do?
+
+✅ Answer:
+
+If I find a critical bug just before release, I will immediately communicate it to 
+stakeholders like developers and product managers.
+💡 Example:
+
+if login is failing for all users, I will mark it as high severity and priority, inform 
+the team immediately, and recommend blocking the release until it is fixed.
+
+Q. How will you debug if a feature is not working in UI?
+
+If a feature is not working in the UI, I start by using browser developer tools.
+
+🔍 Steps:
+Network tab
+→ Check API request, status code, and response
+Console tab
+→ Check for JavaScript errors
+Elements tab
+→ Inspect UI issues like hidden/disabled elements
+Validate request & response
+→ Payload sahi ja raha hai? response expected hai?
+
+Q. Smoke Testing
+
+Purpose: To check whether the major functionalities of the application are 
+working and the build is stable enough for further testing.
+
+When: After a new build is deployed
+Scope: Broad / high-level
+Example:
+Can the login page open? ✅
+Are the main menu items working? ✅
+Does the app crash on launch?
+
+Q. Sanity Testing
+
+Purpose: To verify that a specific functionality or bug fix is working as expected
+When: After a minor change or bug fix
+Scope: Narrow / focused
+
+Example:
+A login bug was fixed → test only the login feature
+Payment module fix → test only the payment flow
 
 Q. Previous project work? 
 
